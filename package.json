@@ -1,0 +1,64 @@
+{
+  "name": "dart-react-hooks-app",
+  "description": "Dart React Hooks App",
+  "keywords": [
+    "typescript",
+    "react",
+    "spa",
+    "boilerplate",
+    "starter"
+  ],
+  "version": "0.10.0",
+  "homepage": "http://dart-react-hooks-app.s3-website-eu-west-1.amazonaws.com",
+  "author": "Eser Ozvataf <eser@ozvataf.com>",
+  "contributors": [
+    {
+      "name": "Eser Ozvataf",
+      "email": "eser@ozvataf.com",
+      "url": "http://eser.ozvataf.com/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eserozvataf/dart-react-hooks-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eserozvataf/dart-react-hooks-app/issues"
+  },
+  "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "scripts": {
+    "start": "dart start",
+    "dev": "dart dev",
+    "lint": "dart lint",
+    "test": "dart test",
+    "bundle": "dart bundle",
+    "bundle:prod": "dart bundle:prod",
+    "containerize": "dart containerize",
+    "aws:copy": "aws s3 sync ./dist s3://dart-react-hooks-app",
+    "aws:open": "start http://dart-react-hooks-app.s3-website-eu-west-1.amazonaws.com"
+  },
+  "dependencies": {
+    "dart": "^0.48.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.14",
+    "@types/jest": "^23.3.8",
+    "@types/react": "^16.4.18",
+    "@types/react-router": "^4.0.32",
+    "bulma": "^0.7.2",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "font-awesome": "^4.7.0",
+    "history": "^4.7.2",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "react-native-web": "^0.9.4",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  }
+}
