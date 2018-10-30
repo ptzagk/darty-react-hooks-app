@@ -42,7 +42,7 @@
     "aws:open": "start http://dart-react-hooks-app.s3-website-eu-west-1.amazonaws.com"
   },
   "dependencies": {
-    "dart": "^0.48.0",
+    "dart": "^0.49.0",
     "express": "^4.16.4"
   },
   "devDependencies": {
@@ -57,7 +57,7 @@
     "history": "^4.7.2",
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
-    "react-native-web": "^0.9.4",
+    "react-native-web": "^0.9.5",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1"
   }
