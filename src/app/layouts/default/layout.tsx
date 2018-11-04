@@ -7,6 +7,10 @@ import bulmaStyles from 'bulma';
 import layoutStyles from './assets/styles.scss';
 
 function Layout(props) {
+    // the JSX syntax is quite intuitive but check out
+    // https://facebook.github.io/react/docs/jsx-in-depth.html
+    // if you need additional help
+
     return (
         <div className={`${bulmaStyles.hero} ${bulmaStyles.isFullheight} ${layoutStyles.isFullheight}`}>
             <header className={`${bulmaStyles.heroHead} ${layoutStyles.heroHead}`}>
