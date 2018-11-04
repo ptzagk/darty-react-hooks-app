@@ -1,6 +1,6 @@
 {
-  "name": "dart-react-hooks-app",
-  "description": "Dart React Hooks App",
+  "name": "darty-react-hooks-app",
+  "description": "Darty React Hooks App",
   "keywords": [
     "typescript",
     "react",
@@ -9,7 +9,7 @@
     "starter"
   ],
   "version": "0.10.0",
-  "homepage": "http://dart-react-hooks-app.s3-website-eu-west-1.amazonaws.com",
+  "homepage": "http://darty-react-hooks-app.s3-website-eu-west-1.amazonaws.com",
   "author": "Eser Ozvataf <eser@ozvataf.com>",
   "contributors": [
     {
@@ -20,10 +20,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/eserozvataf/dart-react-hooks-app.git"
+    "url": "https://github.com/eserozvataf/darty-react-hooks-app.git"
   },
   "bugs": {
-    "url": "https://github.com/eserozvataf/dart-react-hooks-app/issues"
+    "url": "https://github.com/eserozvataf/darty-react-hooks-app/issues"
   },
   "license": "Apache-2.0",
   "main": "./dist/index.js",
@@ -31,25 +31,25 @@
     "node": ">=8.10.0"
   },
   "scripts": {
-    "start": "dart start",
-    "dev": "dart dev",
-    "lint": "dart lint",
-    "test": "dart test",
-    "bundle": "dart bundle",
-    "bundle:prod": "dart bundle:prod",
-    "containerize": "dart containerize",
-    "aws:copy": "aws s3 sync ./dist s3://dart-react-hooks-app",
-    "aws:open": "start http://dart-react-hooks-app.s3-website-eu-west-1.amazonaws.com"
+    "start": "darty start",
+    "dev": "darty dev",
+    "lint": "darty lint",
+    "test": "darty test",
+    "bundle": "darty bundle",
+    "bundle:prod": "darty bundle:prod",
+    "containerize": "darty containerize",
+    "aws:copy": "aws s3 sync ./dist s3://darty-react-hooks-app",
+    "aws:open": "start http://darty-react-hooks-app.s3-website-eu-west-1.amazonaws.com"
   },
   "dependencies": {
-    "dart": "^0.49.0",
+    "darty": "^0.50.2",
     "express": "^4.16.4"
   },
   "devDependencies": {
     "@types/enzyme": "^3.1.14",
-    "@types/jest": "^23.3.8",
+    "@types/jest": "^23.3.9",
     "@types/react": "^16.4.18",
-    "@types/react-router": "^4.0.32",
+    "@types/react-router": "^4.4.0",
     "bulma": "^0.7.2",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
@@ -57,7 +57,7 @@
     "history": "^4.7.2",
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
-    "react-native-web": "^0.9.5",
+    "react-native-web": "^0.9.6",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1"
   }

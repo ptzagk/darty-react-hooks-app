@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap: http://dart-react-hooks-app.s3-website-eu-west-1.amazonaws.com/sitemap.xml
+# Sitemap: http://darty-react-hooks-app.s3-website-eu-west-1.amazonaws.com/sitemap.xml

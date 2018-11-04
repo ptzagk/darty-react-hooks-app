@@ -14,7 +14,7 @@ function Layout(props) {
                     <div className={bulmaStyles.container}>
                         <div className={bulmaStyles.navbarBrand}>
                             {/* <div className={bulmaStyles.navbarItem}>
-                                Dart React Hooks App
+                                Darty React Hooks App
                             </div> */}
                             <span className={bulmaStyles.navbarBurger} role="button" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
                                 <span aria-hidden="true"></span>
@@ -28,7 +28,7 @@ function Layout(props) {
                                 <NavLink to="/dummy/" className={bulmaStyles.navbarItem} activeClassName={bulmaStyles.isActive}>Dummy</NavLink>
                             </div>
                             <div className={bulmaStyles.navbarEnd}>
-                                <a className={bulmaStyles.navbarItem} href="https://github.com/eserozvataf/dart-react-hooks-app">
+                                <a className={bulmaStyles.navbarItem} href="https://github.com/eserozvataf/darty-react-hooks-app">
                                     <span className={bulmaStyles.icon}><i className={`${fontAwesomeStyles.fa} ${fontAwesomeStyles.faCodeFork} ${fontAwesomeStyles.faFw}`} aria-hidden="true"></i></span>
                                     GitHub
                                 </a>
@@ -47,8 +47,8 @@ function Layout(props) {
             <footer className={`${bulmaStyles.footer} ${bulmaStyles.heroFoot} ${layoutStyles.heroFoot}`}>
                 <div className={bulmaStyles.container}>
                     <div className={`${bulmaStyles.content} ${bulmaStyles.hasTextCentered}`}>
-                        Dart React Hooks App is a front-end development stack for starting with a structured, scaleable and adaptable basecode.<br />
-                        Visit <a href="https://github.com/eserozvataf/dart-react-hooks-app">GitHub page</a> for details. Apache License, Version 2.0
+                        Darty React Hooks App is a front-end development stack for starting with a structured, scaleable and adaptable basecode.<br />
+                        Visit <a href="https://github.com/eserozvataf/darty-react-hooks-app">GitHub page</a> for details. Apache License, Version 2.0
                     </div>
                 </div>
             </footer>

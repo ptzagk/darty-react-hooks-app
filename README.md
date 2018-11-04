@@ -1,14 +1,14 @@
-# [Dart React Hooks App](https://github.com/eserozvataf/dart-react-hooks-app)
+# 🎯 [Darty React Hooks App](https://github.com/eserozvataf/darty-react-hooks-app)
 
-Dart is a front-end development system to allow developers to start their projects immediately. By Dart's convention over configuration mindset, webpack and typescript compiler configurations are handled by dart's itself.
+Darty is a front-end development system to allow developers to start their projects immediately. By Darty's convention over configuration mindset, webpack and typescript compiler configurations are handled by darty's itself.
 
-Dart React Hooks App is a front-end development template for [Dart](https://github.com/eserozvataf/dart).
+Darty React Hooks App is a front-end development template for [Darty](https://github.com/eserozvataf/darty).
 
-* Source: [https://github.com/eserozvataf/dart-react-hooks-app](https://github.com/eserozvataf/dart-react-hooks-app)
-* Preview: [http://dart-react-hooks-app.s3-website-eu-west-1.amazonaws.com](http://dart-react-hooks-app.s3-website-eu-west-1.amazonaws.com)
+* Source: [https://github.com/eserozvataf/darty-react-hooks-app](https://github.com/eserozvataf/darty-react-hooks-app)
+* Preview: [http://darty-react-hooks-app.s3-website-eu-west-1.amazonaws.com](http://darty-react-hooks-app.s3-website-eu-west-1.amazonaws.com)
 
 
-## Features (inherited from Dart)
+## Features (inherited from Darty)
 
 * Transforms ES2015+Typescript files with .ts/.tsx extension into browser-compatible JavaScript code.
 * Module bundling for packing everything into modules with their sourcemaps.
@@ -41,10 +41,10 @@ Dart React Hooks App is a front-end development template for [Dart](https://gith
 Ensure that `node.js` is installed on your system first.
 
 ### Alternative 1
-Use the following command to create app with [create-dart-app](https://github.com/eserozvataf/create-dart-app):
+Use the following command to create app with [create-darty-app](https://github.com/eserozvataf/create-darty-app):
 
 ```sh
-npx create-dart-app react-hooks app
+npx create-darty-app react-hooks app
 cd app
 npm run dev
 ```
@@ -53,7 +53,7 @@ npm run dev
 Clone the git repo and execute install dependencies from npm to get ready:
 
 ```sh
-git clone --branch=master https://github.com/eserozvataf/dart-react-hooks-app.git app
+git clone --branch=master https://github.com/eserozvataf/darty-react-hooks-app.git app
 cd app
 npm install
 npm run dev
@@ -91,7 +91,7 @@ Use `npm run <task>` command in project folder to execute tasks defined in `pack
 
 ## Todo List
 
-See [GitHub Projects](https://github.com/eserozvataf/dart-react-hooks-app/projects) for more.
+See [GitHub Projects](https://github.com/eserozvataf/darty-react-hooks-app/projects) for more.
 
 
 ## Requirements
@@ -116,7 +116,7 @@ See [contributors.md](contributors.md)
 It is publicly open for any contribution. Bugfixes, new features and extra modules are welcome.
 
 * To contribute to code: Fork the repo, push your changes to your fork, and submit a pull request.
-* To report a bug: If something does not work, please report it using [GitHub Issues](https://github.com/eserozvataf/dart-react-hooks-app/issues).
+* To report a bug: If something does not work, please report it using [GitHub Issues](https://github.com/eserozvataf/darty-react-hooks-app/issues).
 
 
 ## To Support
